@@ -1,6 +1,10 @@
 # code your #valid_move? method here
 
 def valid_move?(board, array)
+  if board <= 8
+    return true
+  else
+    return false
 
 end
 
